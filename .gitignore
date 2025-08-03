@@ -1,0 +1,21 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Plan output
+*.tfplan
+
+# Crash logs
+crash.log
+
+Add .gitignore to exclude Terraform files
